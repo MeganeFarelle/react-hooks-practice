@@ -1,16 +1,33 @@
-# React + Vite
+React Hooks Exercises — useState, useEffect, Cards & API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project contains three exercises designed to learn and master essential React features such as useState, useEffect, DOM interaction, event handling, timers, and fetching data from an external API.
 
-Currently, two official plugins are available:
+The user interface is styled with TailwindCSS to provide a clean and modern look.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Technologies & Concepts Used
 
-## React Compiler
+React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+useState / useEffect hooks
 
-## Expanding the ESLint configuration
+Timers (setInterval)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Event listeners (scroll)
+
+Effect cleanup
+
+API Fetch — JSONPlaceholder
+
+Modular and reusable components
+
+TailwindCSS (modern UI styling)
+
+📂 Project Structure
+src/
+ ├─ components/
+ │   ├─ Exo1/   → Timer + article reading component
+ │   ├─ Exo2/   → Dynamic document.title + scroll handling + cleanup
+ │   ├─ Exo3/   → Interactive cards (+/−) + API integration + scroll-to-top button
+ ├─ App.jsx
+ ├─ main.jsx
+ ├─ index.css
